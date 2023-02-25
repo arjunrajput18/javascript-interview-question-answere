@@ -1,0 +1,31 @@
+How js works?
+Everything in javascript hapeens inside an "execution context"
+
+Here is the notes guys hope it will hep you to save your time-
+
+*How JavaScript works?
+Ans-Everything in JavaScript happens inside an "execution context".
+
+Execution context has two component
+1)memory component[variable environment] 
+-This is the place where all variables and functions are stored as key value pairs. eg-{key: value ||  n:2;} 
+
+ 2)code component[Thread of execution]
+-This is the place where code is executed one line at a time
+
+Note-
+*JavaScript is a synchronous single-threaded language
+
+-Single threaded means JavaScript can execute once command at a time
+-Synchronous single-threaded that means JavaScript can execute one command at a time in a specific order.
+
+
+JavaScript is Synchronous single-threaded language.
+That whole thing is called as execution context inside that there two things 
+1.Memory component
+2.Code component
+In memory component variable and functions values can be stored in a  key value format.
+Code component is a place where whole JavaScript code is executed
+Memory component is also called as variable environment 
+And code component is also called as thread of execution.
+
