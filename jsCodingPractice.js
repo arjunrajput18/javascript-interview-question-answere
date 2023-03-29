@@ -50,3 +50,33 @@
 
 
 
+
+// const app = document.querySelector("#app");
+
+// const getUser = async (url) => {
+//   const response = await fetch(url);
+//   const data = await response.json();
+//   console.log(data);
+//   app.innerHTML = `<ol>
+//   ${data.map((user) => `<li>name :- ${user.name} <br>Email:- ${user.email}</li>`)}
+//   </ol>`;
+// };
+
+
+// getUser(`https://jsonplaceholder.typicode.com/todos`);
+
+
+// const app = document.querySelector("#app");
+// const getUserData = async (url) => {
+//   try {
+//     const response = await fetch(url);
+//     const data = await response.json();
+//     app.innerHTML = `<ol>
+//       ${data.map((user) => `<li>name :- ${user.title} </li>`)}
+//     </ol>`;
+//   } catch (error) {
+//     console.log(error);
+//   }
+// };
+
+// getUserData(`https://jsonplaceholder.typicode.com/todos`);
